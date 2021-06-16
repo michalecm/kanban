@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+.trelloCard {
+  margin-bottom: 8px;
+}
+
+.trelloBtn {
+  display: flex;
+  flex-direction: horizontal;
+  align-items: center;
+  cursor: pointer;
+  height: 36px;
+  width: 272px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.trelloBtn p {
+  margin-left: 3px;
+}
+
+.textArea {
+  resize: none;
+  width: 100%;
+  outline: none;
+  border: none;
+  overflow: hidden;
+  padding: 8px;
+  margin-right: 25px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.textAreaCard {
+  min-height: 80px;
+  min-width: 272px;
+  padding: 6px 8px 2px;
+  padding-right: 18px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.addWrapper {
+  display: flex;
+  flex-direction: horizontal;
+  align-items: center;
+  align-content: center;
+  margin-top: 8px !important;
+}
+
+.textAreaCardBtn {
+  color: white !important;
+  background-color: #5aac44 !important;
+}
+
+.closeBtn {
+  margin-left: 8px !important;
+  cursor: pointer;
+}
+
+.listHeader {
+  margin-bottom: 8px;
+}
