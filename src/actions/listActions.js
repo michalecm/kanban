@@ -1,4 +1,7 @@
 import { CONSTANTS } from "../actions";
+import { createAction } from "@reduxjs/toolkit";
+
+// export const addList = createAction(CONSTANTS.ADD_LIST);
 
 export const addList = (title) => {
   return {
