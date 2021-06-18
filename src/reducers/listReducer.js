@@ -1,4 +1,3 @@
-import { Droppable } from "react-beautiful-dnd";
 import { CONSTANTS } from "../actions";
 
 let listID = 2;
@@ -73,7 +72,6 @@ const listReducer = (state = initialState, action) => {
         droppableIdEnd,
         droppableIndexStart,
         droppableIndexEnd,
-        draggableId,
         type,
       } = action.payload;
       const newState = [...state];
